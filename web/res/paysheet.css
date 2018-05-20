@@ -1,0 +1,61 @@
+body{
+ background-color: whitesmoke; 
+ font: Times New Roman;
+}
+
+#container{
+    
+}
+#paysheet{
+   
+    width: 60%;
+    height: auto;
+    background-color: white;
+    margin-left: 20%;
+    padding: 3px;
+    
+    
+}
+table{
+    
+    width: 600px;
+    height: 500px;
+    margin-left: 100px;
+}
+td{
+    width: 200px;
+    height: 30px;
+    padding: -10px;
+    
+    
+}
+tr{
+    width: 200px;
+    height: 20px;
+    
+    
+}
+
+#topic{
+    text-align: center;
+
+}
+button {
+    
+    background-color: #bbb;
+    font-size: 16px;
+    color: white;
+    padding: 0px 20px;
+    border: none;
+    cursor: pointer;
+    width: 125px;
+    height: 40px;
+    margin-top: 75px;
+    -webkit-border-radius:10px;
+    
+
+}
+button[type=submit]{
+    font: Times New Roman;
+}
+

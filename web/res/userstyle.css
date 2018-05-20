@@ -1,0 +1,91 @@
+body{
+background-image: url('../res/userback.jpg');
+
+
+
+    }
+h1{
+    font-family: 'RobotoDraft', 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    
+    }
+h2{
+    font-family: 'RobotoDraft', 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    margin-top: -40px;
+    margin-left: 400px;
+    
+  }
+
+ul{
+	margin-left: 0px;
+        padding :0px;
+        list-style-type: none;
+        
+}
+ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+        
+}
+ul li{
+        font-family: 'RobotoDraft', 'Roboto', sans-serif;
+	float: left;
+	width: 800 px;
+	height: 40px;
+	background-color: #333;
+	font-size:16px;
+	line-height:40px;
+	text-align:center;
+	width:33%;
+        text-decoration: none;
+        border: 1px solid #222;
+       
+        
+ 
+
+}
+ul li a:hover {
+	background-color:orange;
+        
+
+}
+ul li ul li{
+	display:none;
+        
+}
+ul li:hover ul li{
+	display: block;	
+    width:100%;
+    
+}
+button {
+    background-color: #2b44ff;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 20px;
+    margin-left: 135px;
+    border: none;
+    cursor: pointer;
+    width: 125px;
+    height: 40px;
+
+}
+input[type=text], input[type=password] {
+    width: 250px;
+    height:45px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 12px;
+    font-size:15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	
+}
