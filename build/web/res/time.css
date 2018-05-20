@@ -1,0 +1,42 @@
+body{
+    background-image: url('../res/timeback.jpg');
+    
+}
+#box{
+    width:600px;
+    height: 220px;
+    background-color: #2b86ec;
+    align-content: center;
+    margin-left: 375px;
+    margin-top: 425px;
+    -webkit-border-radius:10px;
+    opacity: 0.8;  
+}
+input{
+    width: 250px;
+    height:45px;
+    padding: 12px 20px;
+    margin-top: 40px;
+    margin-left: 28px;
+    font-size:16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+	
+}
+
+button {
+    background-color: #bbb;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 20px;
+    margin-left: 135px;
+    border: none;
+    cursor: pointer;
+    width: 125px;
+    height: 40px;
+
+}
